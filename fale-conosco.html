@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Seu Site</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .contato {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contato label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .contato input, .contato textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+        }
+
+        .contato button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contato - Seu Site</h1>
+    </header>
+
+    <main class="contato">
+        <h2>Deixe seu Email para Contato</h2>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Para contato por telefone: (21) 98074-7228</p>
+        <p>&copy; 2024 Seu Site. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
